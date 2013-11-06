@@ -35,6 +35,11 @@ namespace HardlinksTest
 
         }
 
+        /// <summary>
+        /// Prints a colored status message surrounded by [ ]
+        /// </summary>
+        /// <param name="status">The status message</param>
+        /// <param name="color">The status color</param>
         private static void PrintStatus(string status, ConsoleColor color)
         {
             ConsoleColor d = Console.ForegroundColor;
